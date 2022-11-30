@@ -1,3 +1,11 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    padding: 50px;
+}
+
+li{
+    line-height: 2;
+}

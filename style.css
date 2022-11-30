@@ -1,12 +1,26 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
 }
 
-body{
+#hero{
     background: url(./img/soft-flat-abstract-shape-background-free-vector.jpg);
-
+    background-size: cover;
+    min-height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.7;
+}
+.content{
+    position: relative;
+    z-index: 100;
     padding: 50px;
 }
+
 
 li{
     line-height: 2;
